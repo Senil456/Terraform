@@ -17,3 +17,9 @@ resource "azurerm_public_ip" "myname" {
     environment = "Production"
   }
 }
+resource "azurerm_resource_group "name" {
+  name = "RG1"
+  location = "eastus"
+
+}
+  
